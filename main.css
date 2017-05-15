@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+/*img {
+	position: absolute; 
+	width: 100%; 
+	height: auto;
+	z-index: -500;
+}
+*/
+div.container{
+	position: absolute;
+	height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+div.header{
+  position: fixed;
+  background: url("IMG_1876_crop1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  min-height: 400px;
+  width:100%;
+  z-index: -99; 
+}
+
+div.nav{
+  margin-top: 27%;
+  padding-top: 3px;
+  position: relative;
+  height: 15%;
+  min-height:15%;
+  width:100%;
+  z-index:1000;
+  background: white;
+}
+
+div.holder{
+  position: relative;
+  height:100%;
+  min-height:100%;
+  width:100%;
+  z-index:1000;
+  background: white;
+  padding: 0 145px;
+}
+
+h1 {
+	margin-top: 20px;
+	padding-left: 3%;
+	font-family: 'Dancing Script', serif;
+	font-size: 120px;
+	font-weight: bold;
+	line-height: 1em;
+	color: #ffffff;
+	text-align: left;
+	text-shadow:
+    1px 1px 0 #000,
+    2px 1px 0 #000,
+    1px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+h3 {
+	color: white;
+	text-align: right;
+	margin-right: 70px;
+	margin-top: -80px;
+	font-family: 'Play', sans-serif;
+	font-size: 25px;
+	text-shadow:
+    1px 1px 0 #000,
+    2px 1px 0 #000,
+    1px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+div.nav ul li:active{
+		color: red;
+		font-weight: bold;
+}
+
+div.nav ul li a:visited{
+		color: darkRed;
+		text-decoration: none;
+}
+
+div.nav ul li a:hover{
+		color: red;
+		font-weight: bold;
+		text-decoration: none;
+}
+
+div.nav ul li a{
+		color: darkred;
+		font-weight: normal;
+		text-decoration: none;
+}
+
+div.nav ul li {
+	display: inline-block;
+ 	width: 19%;
+ 	padding: 5px;
+ 	margin: 0px;
+ 	text-align: center;
+ 	font-family: 'Play', sans-serif;
+	font-size: 27px;
+	color: red;
+	background: white;
+	text-decoration: none;
+ }
+
+ div.nav ul li a{
+ 	color: darkred;
+ 	text-decoration: none;
+}
+
+div.nav ul{
+	padding: 0px 100px;
+}
+
+div.holder h4{
+	text-align: left;
+	background: white;
+	font-size: 20px;
+	font-family: 'Play', sans-serif;
+	margin-top: 0px;
+	color: black;
+}
+
+div.holder ul{
+	margin: 0px;
+	padding:0px;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+}
+
+div.holder li{
+	list-style: none;
+	background: white;
+}
+
+div.holder iframe{
+	display: block;
+	margin: auto;
+	background: white;
+}
+
+div.holder p{
+	margin: 0;
+	text-align: justify;
+	padding: 0px 40px 0px 40px;
+	background: white;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+}
+
+div.subholder{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 35px;
+}
+
+div.subholder:nth-child(1){
+}
+
+div.subholder:nth-child(2){
+    width: 70%;
+    height: 100px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+div.video{
+	margin-left: 200px;
+}
+
+div.footer p{
+	display: block;
+	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+}
+
+/*div.subholder img {
+	margin-left: 100px;
+	margin-right: 100px;
+}*/
+
+div.aboutsub{
+	display: inline-block;
+	vertical-align: text-top;
+	text-align: center;
+	width: 48%;
+	line-height: 1.5em;
+}
+
+div.aboutsub img{
+	margin-left: -20px;
+}
+
+div.aboutsub p{
+	margin-left: -60px;
+}
+
