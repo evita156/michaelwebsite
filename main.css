@@ -167,10 +167,12 @@ div.holder p{
 div.subholder{
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 35px;
+	margin-left: 35px;
 }
 
 div.subholder:nth-child(1){
+	border: 6px solid indianred;
+	height:332px;
 }
 
 div.subholder:nth-child(2){
@@ -208,6 +210,7 @@ div.aboutsub{
 
 div.aboutsub img{
 	margin-left: -20px;
+	border: 8px solid wheat;
 }
 
 div.aboutsub p{
