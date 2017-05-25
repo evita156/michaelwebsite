@@ -5,19 +5,15 @@
 
 @media only screen and (max-width: 768px) {
   div.nav{
-    top: 45vw;
   }
   div.holder{
-    top: 50vw;
   }
-  h1{
-  	font-size: 2.5vw;
-  	line-height: 7vw;
+  div.header>h1{
+    left: 30vw;
+    width: 40vw;
+  }
+  div.header>h3{
 
-  }
-  h3{
-  	font-size: 1vw;
-  	top: 15vw
   }
 }
 
@@ -44,7 +40,7 @@ div.container{
     top: -55px;
     display: block;
 }
-div.header{
+.header{
   background-image: url("MH.jpg");
   height: auto;
   min-height: 400px;
@@ -61,7 +57,7 @@ div.header{
   z-index: -99; 
 }
 
-div.nav{
+.nav{
   position: relative;
   top: 30vw;
   width:100%;
@@ -82,7 +78,7 @@ div.holder{
   padding:0 7vw;
 }
 
-div.header>h1 {
+h1 {
 	font-family: 'Dancing Script', serif;
 	font-size: 5vw;
 	font-weight: bold;
@@ -101,7 +97,7 @@ div.header>h1 {
     left: 45vw;
 }
 
-div.header>h3 {
+h3 {
 	position: absolute;
 	top: 18vw;
 	left: 68vw;
