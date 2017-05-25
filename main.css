@@ -4,16 +4,32 @@
 }
 
 @media handheld, screen and (max-width: 768px) {
+
+  div.holder>h4{
+	font-size: 2vw;
+  }
+  div.holder>ul>li{
+	font-size: 1.9vw;
+  }
+  div.header{
+  	background-position: center 5%;
+  }
   div.nav{
+  	top: 40vw;
+
   }
   div.holder{
+  	top: 40vw;
   }
   div.header>h1{
-    left: 30vw;
+    left: 26vw;
     width: 40vw;
+    top: 19vw;
   }
   div.header>h3{
-
+	top: 19vw;
+	width: 33vw;
+	left: 66vw;
   }
 }
 
@@ -45,7 +61,7 @@ div.container{
   height: auto;
   min-height: 400px;
   min-width: 100%;
-  background-position: center 2%;
+  background-position: center 4%;
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute ;
@@ -59,14 +75,14 @@ div.container{
 
 .nav{
   position: relative;
-  top: 30vw;
+  top: 32vw;
   width:100%;
   z-index:1000;
   background: white;
   display: block;
 }
 
-div.holder{
+.holder{
   position: relative;
   top: 35vw;
   display: block;
