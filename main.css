@@ -3,10 +3,28 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+  div.nav{
+    top: 45vw;
+  }
+  div.holder{
+    top: 50vw;
+  }
+  h1{
+  	font-size: 2.5vw;
+  	line-height: 7vw;
+
+  }
+  h3{
+  	font-size: 1vw;
+  	top: 15vw
+  }
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background: white;
+	background-color: white;
 	font-size: 16px;
 }
 
@@ -24,54 +42,75 @@ div.container{
     margin: 0;
     padding: 0;
     top: -55px;
+    display: block;
 }
 div.header{
-  background: url("MH.jpg") no-repeat center top;
-  background-size: contain;
+  background-image: url("MH.jpg");
+  height: auto;
   min-height: 400px;
-  max-width:100%;
+  min-width: 100%;
+  background-position: center 2%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute ;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
   z-index: -99; 
 }
 
 div.nav{
-  height: 15%;
-  min-height:15%;
+  position: relative;
+  top: 30vw;
   width:100%;
   z-index:1000;
   background: white;
+  display: block;
 }
 
 div.holder{
-  height:100%;
+  position: relative;
+  top: 35vw;
+  display: block;
+/*  height:100%;
   min-height:100%;
-  width:100%;
+  width:100%;*/
   z-index:1000;
   background: white;
-  padding: 0 145px;
+  padding:0 7vw;
 }
 
-h1 {
+div.header>h1 {
 	font-family: 'Dancing Script', serif;
-	font-size: 4.5rem;
+	font-size: 5vw;
 	font-weight: bold;
-	line-height: 5rem;
+	line-height: 10vw;
 	color: #ffffff;
-	text-align: right;
-	padding: 260px 300px;
+	text-align: center;
 	text-shadow:
     1px 1px 0 #000,
     2px 1px 0 #000,
     1px 2px 0 #000,
     2px 2px 0 #000;  
+    height: 10vw;
+    width: 35vw;
+    position: absolute;
+    top: 15vw;
+    left: 45vw;
 }
 
-h3 {
+div.header>h3 {
+	position: absolute;
+	top: 18vw;
+	left: 68vw;
+	width: 30vw;
+	height: 7vw;
 	color: white;
 	text-align: right;
-	margin-right: 30px;
-	margin-top: -370px;
 	font-family: 'Play', sans-serif;
-	font-size: 25px;
+	font-size: 1.5vw;
 	text-shadow:
     1px 1px 0 #000,
     2px 1px 0 #000,
@@ -104,11 +143,11 @@ div.nav ul li a{
 div.nav ul li {
 	display: inline-block;
  	width: 19%;
- 	padding: 5px;
- 	margin: 0px;
+ 	margin: 0;
+ 	padding: 0;
  	text-align: center;
  	font-family: 'Play', sans-serif;
-	font-size: 27px;
+	font-size: 1.5vw;
 	color: red;
 	background: white;
 	text-decoration: none;
@@ -120,22 +159,22 @@ div.nav ul li {
 }
 
 div.nav ul{
-	padding: 0px 100px;
+	padding: 0;
 }
 
 div.holder h4{
 	text-align: left;
 	background: white;
-	font-size: 20px;
+	font-size: 1.5vw;
 	font-family: 'Play', sans-serif;
-	margin-top: 0px;
+	margin-top: 0;
 	color: black;
 }
 
 div.holder ul{
-	margin: 0px;
-	padding:0px;
-	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3vw;
 	font-family: 'Arial', sans-serif;
 }
 
@@ -144,71 +183,61 @@ div.holder li{
 	background: white;
 }
 
-div.holder iframe{
-	display: block;
-	margin: auto;
-	background: white;
-}
-
 div.holder p{
 	margin: 0;
-	text-align: justify;
-	padding: 0px 40px 0px 40px;
+	padding: 0;
 	background: white;
-	font-size: 18px;
+	font-size: 1.3vw;
 	font-family: 'Arial', sans-serif;
+	text-align: justify;
 }
 
 div.subholder{
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 35px;
-}
-
-div.subholder:nth-child(1){
-	border: 6px solid indianred;
-	height:332px;
-}
-
-div.subholder:nth-child(2){
-    width: 70%;
-    height: 100px;
+	display: block;
+    height: auto;
     vertical-align: top;
     text-align: justify;
 }
 
-div.video{
-	margin-left: 200px;
-	margin-top: 40px;
+div.video>iframe{
+    display: block;
+    margin: 0 auto;
+	width: 100%;
 }
 
-div.footer p{
+div.footer{
+	position: relative;
+	top: 35vw;
+	margin: 3vw;
 	display: block;
 	text-align: center;
-	color: black;
-	font-size: 18px;
+	color: grey;
+	font-size: 1.2vw;
 	font-family: 'Arial', sans-serif;
 }
 
-/*div.subholder img {
-	margin-left: 100px;
-	margin-right: 100px;
-}*/
+div.subholder img {
+	height: 30vw;
+	width: 20vw;
+	border: 5px solid indianred;
+	margin: 0 1vw 0 0;
+}
 
 div.aboutsub{
-	display: inline-block;
+	display: block;
 	vertical-align: text-top;
-	text-align: center;
-	width: 48%;
-	line-height: 1.5em;
+	text-align: justify;
+	width: 100%;
 }
 
 div.aboutsub img{
-	margin-left: -20px;
-	border: 8px solid wheat;
+    margin: 0 2vw 0 0;
+	border: 5px solid wheat;
+	height: 30vw;
+	width: auto;
 }
 
 div.aboutsub p{
-	margin-left: -60px;
+	font-size: 1.3vw;
 }
 
