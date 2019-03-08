@@ -48,7 +48,7 @@
   }
   .column {
         width: 100%;
-    }
+  }
 
 }
 
@@ -200,7 +200,7 @@ div.nav ul li a{
 
 div.nav ul li {
 	display: inline-block;
- 	width: 19%;
+ 	width: 16%;
  	margin: 0;
  	padding: 0;
  	text-align: center;
@@ -351,6 +351,13 @@ div.footer{
 	width: 20vw;
 	border: 5px solid indianred;
 	margin: 0 1vw 0 0;
+}
+
+#imgBookCover {
+	height: 30vw;
+	width: 20vw;
+	border: 5px solid #033F71;
+	margin: 0 0 0 1vw;
 }
 
 .aboutsub{
