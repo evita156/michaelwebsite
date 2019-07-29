@@ -317,33 +317,10 @@ div.footer{
 }
 
 #img1 {
-	width: 20vw;
+	width: 100%;
 	margin: 0 0 0 0;
-}
-
-#img2 {
-	width: 12vw;
-	margin: 0 1vw 0 0;
-}
-
-
-#img3 {
-	width: 10vw;
-	margin: 0 1vw 0 0;
 	padding-top: 2vw;
-    height: 10vw;
-}
-
-#img4 {
-	width: 20vw;
-	margin: 0 1vw 0 0;
-	padding-top: 2vw;
-}
-
-#img5 {
-	width: 20vw;
-	margin: 0 1vw 0 0;
-	padding-top: 2vw;
+    height: 12vw;
 }
 
 #imgTedX {
