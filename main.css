@@ -200,7 +200,7 @@ div.nav ul li a{
 
 div.nav ul li {
 	display: inline-block;
- 	width: 16%;
+ 	width: 13%;
  	margin: 0;
  	padding: 0;
  	text-align: center;
@@ -255,6 +255,7 @@ div.subholder{
     height: auto;
     vertical-align: top;
     text-align: justify;
+    overflow: auto;
 }
 
 div.video{
@@ -379,3 +380,18 @@ div.footer{
     display: table;
     clear: both;
 }
+
+#imgbookcover {
+	height: 30vw;
+	width: 20vw;
+	border: 2px solid #033F71;
+	margin: 0 4vw 0 0;
+}
+
+#imgdisastersbookcover {
+	height: 30vw;
+	width: 20vw;
+	border: 2px solid #033F71;
+	margin: 0 4vw 0 0;
+}
+
